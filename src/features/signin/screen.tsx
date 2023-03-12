@@ -2,7 +2,7 @@
  * @Author: liusong 2227616052@qq.com
  * @Date: 2023-03-12 11:23:11
  * @LastEditors: liusong 2227616052@qq.com
- * @LastEditTime: 2023-03-12 11:37:52
+ * @LastEditTime: 2023-03-12 11:42:34
  * @FilePath: \nextepdev\src\features\signin\screen.tsx
  * @Description: 
  * 
@@ -28,7 +28,7 @@ export default function SignInScreen() {
   const redirectIfSignedIn = async () => {
     // if (signIn.status == 'complete') {
     //   push('/')如果注册成功，跳转到登录
-      push('/main')
+      push('/home')
     // }
   }
   return (

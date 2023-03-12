@@ -5,4 +5,9 @@ type StackNavigatorParams = {
 	// };
 	signin: undefined;
 	signup:	undefined;
+	home: undefined;
+	schedule: undefined;
+	team: undefined;
+	extensions: undefined;
+	settings: undefined;
 };
