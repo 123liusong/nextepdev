@@ -1,6 +1,8 @@
 type StackNavigatorParams = {
-	home: undefined;
-	"user-detail": {
-		id: string;
-	};
+	// home: undefined;
+	// "user-detail": {
+	// 	id: string;
+	// };
+	signin: undefined;
+	signup:	undefined;
 };
