@@ -2,7 +2,7 @@
  * @Author: liusong 2227616052@qq.com
  * @Date: 2023-03-11 17:35:04
  * @LastEditors: liusong 2227616052@qq.com
- * @LastEditTime: 2023-03-12 11:58:06
+ * @LastEditTime: 2023-03-14 23:10:46
  * @FilePath: \nextepdev\src\provider\index.tsx
  * @Description:
  *
@@ -31,7 +31,15 @@ export const Provider: FCC = ({ children }) => {
                   schedule: "/home/schedule",
                   team: "/home/team",
                   extensions: "/home/extensions",
+                  mylist:"/home/extensions/mylist",
+                  myfiles:"/home/extensions/myfiles",
+                  quicknote:"/home/extensions/quicknote",
+                  plugin:"/home/extensions/plugin",
+                  feedback:"/home/extensions/feedback",
                   settings: "/home/settings",
+                  pwdmodify:"/home/settings/pwdmodify",
+
+                  
                   notfound:"/notfound"
                 },
               },

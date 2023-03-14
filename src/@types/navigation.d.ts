@@ -10,4 +10,11 @@ type StackNavigatorParams = {
 	team: undefined;
 	extensions: undefined;
 	settings: undefined;
+	pwdmodify:undefined;
+	mylist:undefined;
+	myfiles:undefined;
+	quicknote:undefined;
+	plugin:undefined;
+	feedback:undefined;
+
 };
