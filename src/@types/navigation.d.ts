@@ -16,5 +16,6 @@ type StackNavigatorParams = {
 	quicknote:undefined;
 	plugin:undefined;
 	feedback:undefined;
+	teamdetail:undefined;
 
 };

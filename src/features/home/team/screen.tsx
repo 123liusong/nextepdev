@@ -16,7 +16,7 @@ import { ListItem, ScrollView, Separator, YGroup } from "tamagui";
 export default function TeamScreen() {
   const {push} = useRouter();
   const handlePress = async() => {
-    push('/signup');
+    push('/home/team/detail');
   };
   return (
     <ScrollView bc="$background" px="$4" pt="$4" br="$4">
@@ -26,7 +26,6 @@ export default function TeamScreen() {
             hoverTheme
             pressTheme
             onPress={handlePress}
-
             icon={Star}
             title="ACTR组织"
             subTitle="加入的"

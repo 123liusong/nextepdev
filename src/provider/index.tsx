@@ -30,6 +30,7 @@ export const Provider: FCC = ({ children }) => {
                   home: "home",
                   schedule: "/home/schedule",
                   team: "/home/team",
+                  teamdetail: "/home/team/detail",
                   extensions: "/home/extensions",
                   mylist:"/home/extensions/mylist",
                   myfiles:"/home/extensions/myfiles",
@@ -38,6 +39,7 @@ export const Provider: FCC = ({ children }) => {
                   feedback:"/home/extensions/feedback",
                   settings: "/home/settings",
                   pwdmodify:"/home/settings/pwdmodify",
+
 
                   
                   notfound:"/notfound"

@@ -3,9 +3,7 @@
     "name": "nextepdev",
     "slug": "nextepdev",
     "version": "2.2.4",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "jsEngine": "hermes",
@@ -29,7 +27,8 @@
       "barStyle": "dark-content"
     },
     "plugins": [
-      "expo-dev-client"
+      "expo-dev-client",
+      "expo-document-picker"
     ]
   }
 }

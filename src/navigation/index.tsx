@@ -20,6 +20,7 @@ import ScheduleScreen from "../features/home/schedule/screen";
 import HomeScreen from "../features/home/screen";
 import PWDModifyScreen from "../features/home/settings/pwdmodify/screen";
 import SettingsScreen from "../features/home/settings/screen";
+import TeamDetailScreen from "../features/home/team/detail/screen";
 import TeamScreen from "../features/home/team/screen";
 import SignInScreen from "../features/signin/screen";
 import { SignUpScreen } from "../features/signup/screen";
@@ -122,6 +123,14 @@ export const NativeNavigation: FC = () => {
         name="feedback"
         component={FeedBackScreen}
       />
+      <Stack.Screen
+        options={{
+          title: "团队详情",
+        }}
+        name="teamdetail"
+        component={TeamDetailScreen}
+      />
+
     </Stack.Navigator>
   );
 };
